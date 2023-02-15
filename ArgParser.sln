@@ -5,6 +5,11 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArgParser", "ArgParser.csproj", "{D8B44FB1-BB9F-447D-AA3A-67BBCE34B2DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgParserTests", "..\ArgParserTests\ArgParserTests.csproj", "{D56BE608-CAE4-4AAC-B129-7A3DA8499DA5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D8B44FB1-BB9F-447D-AA3A-67BBCE34B2DE} = {D8B44FB1-BB9F-447D-AA3A-67BBCE34B2DE}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{D8B44FB1-BB9F-447D-AA3A-67BBCE34B2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8B44FB1-BB9F-447D-AA3A-67BBCE34B2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8B44FB1-BB9F-447D-AA3A-67BBCE34B2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D56BE608-CAE4-4AAC-B129-7A3DA8499DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56BE608-CAE4-4AAC-B129-7A3DA8499DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56BE608-CAE4-4AAC-B129-7A3DA8499DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56BE608-CAE4-4AAC-B129-7A3DA8499DA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
