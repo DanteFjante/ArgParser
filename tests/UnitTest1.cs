@@ -1,8 +1,10 @@
-namespace ArgParserTests
+using ArgParser;
+
+namespace tests
 {
     public class UnitTest1
     {
-        ArgCollection collection = new ArgCollection(new string[] { "-a", "b", "--c", "d", "--e", "1"});
+        ArgCollection collection = new ArgCollection(new string[] { "-a", "b", "--c", "d", "--e", "1" });
         [Fact]
         public void Test1()
         {
@@ -31,6 +33,18 @@ namespace ArgParserTests
         public void Test5()
         {
             Assert.Equal(3, collection.Count);
+        }
+
+        [Fact]
+        public void Test6()
+        {
+            Assert.Null(() => collection.GetArgument("a"));
+        }
+
+        [Fact]
+        public void Test7()
+        {
+            Assert.Throws<ArgumentNullException>(() => new ArgCollection(null));
         }
     }
 }

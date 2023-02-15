@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArgParser", "ArgParser.csproj", "{D8B44FB1-BB9F-447D-AA3A-67BBCE34B2DE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArgParserTests", "tests\ArgParserTests.csproj", "{3908EBA3-2B0F-4AB1-9524-401705609B3D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{3D153763-6630-46B4-81D2-B85E9F1DB327}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{D8B44FB1-BB9F-447D-AA3A-67BBCE34B2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8B44FB1-BB9F-447D-AA3A-67BBCE34B2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8B44FB1-BB9F-447D-AA3A-67BBCE34B2DE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3908EBA3-2B0F-4AB1-9524-401705609B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3908EBA3-2B0F-4AB1-9524-401705609B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3908EBA3-2B0F-4AB1-9524-401705609B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3908EBA3-2B0F-4AB1-9524-401705609B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D153763-6630-46B4-81D2-B85E9F1DB327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D153763-6630-46B4-81D2-B85E9F1DB327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D153763-6630-46B4-81D2-B85E9F1DB327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D153763-6630-46B4-81D2-B85E9F1DB327}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

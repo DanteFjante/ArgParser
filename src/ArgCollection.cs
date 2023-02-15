@@ -14,6 +14,8 @@ namespace ArgParser
             {
                 collection.AddRange(MapArguments(args));
             }
+            else
+                throw new ArgumentNullException("Requires args to not be null");
         }
 
         public bool HasOption(char option) => collection.Any(p => !p.GetType().IsInstanceOfType(typeof(Argument)) && p.Value.First() == option);
