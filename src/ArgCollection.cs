@@ -50,7 +50,7 @@ namespace ArgParser
             {
                 if (args[i].StartsWith("--"))
                 {
-                    list.Add(new Argument(args[i], args[i + 1]));
+                    list.Add(new Argument(args[i].Substring(2), args[i + 1]));
                 }
                 else if (args[i].StartsWith("-"))
                 {
