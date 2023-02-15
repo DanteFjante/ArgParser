@@ -17,6 +17,8 @@
     <PackAsTool>False</PackAsTool>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageIcon>Icon.png</PackageIcon>
+    <PackageId>DanteFjante.$(AssemblyName)</PackageId>
+    <Authors>DanteFjante</Authors>
   </PropertyGroup>
 
   <ItemGroup>
